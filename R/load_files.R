@@ -1,5 +1,11 @@
 library(readxl)
 
+#' Load files
+#'
+#' @return
+#' @export
+#'
+#' @examples
 load_files <- function(){
 ADMINISTRACAO_UFF_VRE_final <-
   read_excel("~/Desenv_Flavio/Valida_SistACAD/data/ADMINISTRACAO_UFF_VRE_final.xlsx",

@@ -1,5 +1,3 @@
-
-#'Configura o diretório de trabalho
 #'Configure Workdir
 #' @param sovar 
 #'
