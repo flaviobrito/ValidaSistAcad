@@ -26,10 +26,10 @@ dat <- lapply(files,read_excel, skip=3)
 #Load files
 load_files()
 
-#Validade Business Rules
+#Validate Business Rules
 ############################
 #
-# Rule 01 - Students's subscriptions error when number of 
+# Rule 01 - Students' subscriptions error when number of 
 #           subjects is more or equal than 3
 ########################################################
 df_adm__uff_rn1 <-audit_subjects(ADMINISTRACAO_UFF_VRE_final)
